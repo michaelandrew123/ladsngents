@@ -1,0 +1,88 @@
+Object Oriented Mapping (ORM)
+Make it enjoyable interact with your database
+allow as to update, insert and delete record from the table
+
+
+php artisan make:model Flight
+php artisan make:model Flight --migration or -m
+
+we can use the following for make model 
+--factory or -f
+--seed or -s
+--controller or -c
+--mfsc
+
+
+Eloquent relationship one to many
+    php artisan make:model post -m
+    php artisan make:model comment -m
+    php artisan migrate 
+    php artisan make:controller PostController
+
+Eloquent Relationship Many to Many
+    php artisan make:model Role -m
+    php artisan make:model RoleUser -m
+
+    RoleUser
+    Role
+    User
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
+
+laravel -v 
+laravel 4.0.3 --> you can install jetstream this version
+
+composer global remove laravel/installer
+composer global require laravel/installer
+
+laravel new test8 --jet
+livewire 
+application use teams? No!
+
+
+**another way!!
+composer create-project --prefer-dist laravel/laravel laravel
+composer require laravel/jetstream
+php artisan jetstream:install inertia
+
+upgrade composer to latest version
+php composer.phar self-update
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+xampp composer
+
+update php.ini
+    extension=openssl = remove ;
+xampp control panel 
+    shell
+         php -r "readfile('https://getcomposer.org/installer');" | php
+
+update php.ini
+    extension=openssl = add ;
+
+
+upgrade composer config platform
+    composer config platform.php 7.4.3
+
+check laravel version
+    php artisan --version
+
+upgrade laravel to latest version 
+Guide Update then
+https://laravel.com/docs/8.x/upgrade
+composer update
+
+
+
+composer require
+composer require laravel/jetstream
+php artisan jetstream:install inertia
